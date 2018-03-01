@@ -1,12 +1,15 @@
 #!/bin/env bash
-apt-get update 
-apt install bpython3
-apt install python-pip3
-pip3 install selenium
-apt install unzip  
 
+## Preparation
+apt-get update 
+apt install bpython3 python-pip3 unzip   
+pip3 install selenium
+
+##Temporery Files
 mkdir temp
 cd temp
+
+
 ## Chrome Driver
 wget -N http://chromedriver.storage.googleapis.com/2.26/chromedriver_linux64.zip
 unzip chromedriver_linux64.zip
@@ -28,6 +31,7 @@ ln -s /usr/local/share/geckodriver /usr/bin/geckodriver
 cd ../
 rm -rf temp 
 
+## TEST output
 TITLE="Test Drive"
 COLUMNS=$(tput cols)
 printf "%*s" $(tput cols) | tr " " "="
