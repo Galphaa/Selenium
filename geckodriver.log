@@ -1,0 +1,24 @@
+1519934202895	geckodriver	INFO	geckodriver 0.19.1
+1519934202899	geckodriver	INFO	Listening on 127.0.0.1:53615
+1519934204058	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.xOTrDCpuA1Hd"
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+Error: cannot open display: :0
+1519934213396	geckodriver	INFO	geckodriver 0.19.1
+1519934213400	geckodriver	INFO	Listening on 127.0.0.1:49339
+1519934214566	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.EaMVTZOV88lU"
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+Error: cannot open display: :0
+1519934245582	geckodriver	INFO	geckodriver 0.19.1
+1519934245585	geckodriver	INFO	Listening on 127.0.0.1:47059
+1519934246751	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.WKR1NFo5w0vh"
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+Error: cannot open display: :0
+1519934515251	geckodriver	INFO	geckodriver 0.19.1
+1519934515256	geckodriver	INFO	Listening on 127.0.0.1:58249
+1519934516369	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.9FYVHbdJpHqZ"
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+Error: cannot open display: :0
