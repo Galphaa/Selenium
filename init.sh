@@ -28,8 +28,10 @@ ln -s /usr/local/share/geckodriver /usr/bin/geckodriver
 cd ../
 rm -rf temp 
 
+TITLE="Test Drive"
+COLUMNS=$(tput cols)
 printf "%*s" $(tput cols) | tr " " "="
-printf "%*s\n" $(((${#Test_drive}+$COLUMNS)/2)) "Test drive"
+printf "%*s\n" $(((${#TITLE}+$COLUMNS)/2)) "$TITLE"
 printf "%*s" $(tput cols) | tr " " "="
 
 from selenium import webdriver 
@@ -37,3 +39,4 @@ from selenium import webdriver
 driver = webdriver.Firefox()
 driver.get("google.ge")
 print (driver.title) 
+
