@@ -27,3 +27,13 @@ ln -s /usr/local/share/geckodriver /usr/bin/geckodriver
 ## Cleanning
 cd ../
 rm -rf temp 
+
+printf "%*s" $(tput cols) | tr " " "="
+printf "%*s\n" $(((${#Test_drive}+$COLUMNS)/2)) "Test drive"
+printf "%*s" $(tput cols) | tr " " "="
+
+from selenium import webdriver 
+
+driver = webdriver.Firefox()
+driver.get("google.ge")
+print (driver.title) 
