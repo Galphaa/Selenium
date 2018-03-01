@@ -34,9 +34,8 @@ printf "%*s" $(tput cols) | tr " " "="
 printf "%*s\n" $(((${#TITLE}+$COLUMNS)/2)) "$TITLE"
 printf "%*s" $(tput cols) | tr " " "="
 
-from selenium import webdriver 
-
-driver = webdriver.Firefox()
-driver.get("google.ge")
-print (driver.title) 
-
+#    from selenium import webdriver 
+#    
+#    driver = webdriver.Firefox()
+#    driver.get("google.ge")
+#    print (driver.title) 
