@@ -6,8 +6,8 @@ apt install bpython3 python-pip3 unzip
 pip3 install selenium
 
 ##Temporery Files
-mkdir temp
-cd temp
+WORKING_DIR=`mktemp -d -p /tmp`
+cd $WORKING_DIR
 
 
 ## Chrome Driver
