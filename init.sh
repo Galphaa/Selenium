@@ -40,18 +40,8 @@ printf "%*s\n" $(((${#TITLE}+$COLUMNS)/2)) "$TITLE"
 printf "%*s" $(tput cols) | tr " " "="
 
 
-printf  " \t from selenium import webdriver \n "
-
-echo -e \
-	\
-	' \t driver = webdriver.Firefox()'
-
-echo -e \
-	\
-	'\t driver.get("google.ge")'
-
-echo -e \
-	\
-	'\t print (driver.title) \n'
- 
-echo -e "Pro Tips, problem not reading selenium library use normal user 'not ROOT' \nWhen using pip install selenium it is instaling on defalt place for pip it may be for 2.7 (we are using python3) pip3 install selenium if mistake was made remove and do it again " 
+printf "from selenium import webdriver \n"
+printf 'driver = webdriver.Firefox()'
+printf 'driver.get("google.ge")'
+printf 'print (driver.title) \n'
+echo -e  "Pro Tips, problem not reading selenium library use normal user 'not ROOT' \nWhen using pip install selenium it is instaling on defalt place for pip it may be for 2.7 (we are using python3) pip3 install selenium if mistake was made remove selenium (pip uninstall) and do it again " 
