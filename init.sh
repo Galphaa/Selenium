@@ -54,4 +54,4 @@ echo -e \
 	\
 	'\t print (driver.title) \n'
  
-echo -e "Pro Tips, problem not reading selenium library use normal user 'not ROOT' \nWhen using pip install selenium it is instaling on defalt place for pip it may be for 2.7 (we are using python3) pip3 install selenium if mistake was made remove and doit " 
+echo -e "Pro Tips, problem not reading selenium library use normal user 'not ROOT' \nWhen using pip install selenium it is instaling on defalt place for pip it may be for 2.7 (we are using python3) pip3 install selenium if mistake was made remove and do it again " 
