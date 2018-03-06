@@ -29,7 +29,8 @@ ln -s /usr/local/share/geckodriver /usr/bin/geckodriver
 
 ## Cleanning
 cd ../
-rm -rf temp 
+rm -rf $WORKING_DIR
+ 
 
 ## TEST output
 TITLE="Test Drive"
