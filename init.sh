@@ -1,13 +1,14 @@
 #!/bin/env bash
 
+## Temporery Files
+WORKING_DIR=`mktemp -d -p /tmp`
+cd $WORKING_DIR
+
+
 ## Preparation
 apt-get update 
 apt install bpython3 python-pip3 unzip   
 pip3 install selenium
-
-##Temporery Files
-WORKING_DIR=`mktemp -d -p /tmp`
-cd $WORKING_DIR
 
 
 ## Chrome Driver
