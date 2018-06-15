@@ -6,7 +6,7 @@ cd $WORKING_DIR
 
 
 ## Preparation
-apt-get update 
+apt-get -y update 
 apt install bpython3 python-pip3 unzip   
 pip3 install selenium
 
