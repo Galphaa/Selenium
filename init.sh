@@ -12,7 +12,7 @@ pip3 install selenium
 
 
 ## Chrome Driver
-wget -N http://chromedriver.storage.googleapis.com/2.26/chromedriver_linux64.zip
+wget -N https://chromedriver.storage.googleapis.com/2.45/chromedriver_linux64.zip
 unzip chromedriver_linux64.zip
 chmod +x chromedriver
 mv -f chromedriver /usr/local/share/chromedriver
@@ -20,8 +20,8 @@ ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
 ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
 
 ## Firefox Driver 
-wget https://github.com/mozilla/geckodriver/releases/download/v0.19.1/geckodriver-v0.19.1-linux64.tar.gz
-tar -xvzf geckodriver-v0.19.1-linux64.tar.gz
+wgethttps://github.com/mozilla/geckodriver/releases/download/v0.23.0/geckodriver-v0.23.0-linux64.tar.gz
+tar -xvzf geckodriver-v0.23.0-linux64.tar.gz
 chmod +x geckodriver
 cp geckodriver /usr/bin/geckodriver
 mv -f geckodriver /usr/local/share/geckodriver
