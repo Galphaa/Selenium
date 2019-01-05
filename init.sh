@@ -7,7 +7,7 @@ cd $WORKING_DIR
 
 ## Preparation
 apt-get -y update 
-apt install bpython3 python-pip3 unzip   
+apt install -y bpython3  python-pip3 unzip   
 pip3 install selenium
 
 
@@ -20,7 +20,7 @@ ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
 ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
 
 ## Firefox Driver 
-wgethttps://github.com/mozilla/geckodriver/releases/download/v0.23.0/geckodriver-v0.23.0-linux64.tar.gz
+wget https://github.com/mozilla/geckodriver/releases/download/v0.23.0/geckodriver-v0.23.0-linux64.tar.gz
 tar -xvzf geckodriver-v0.23.0-linux64.tar.gz
 chmod +x geckodriver
 cp geckodriver /usr/bin/geckodriver
